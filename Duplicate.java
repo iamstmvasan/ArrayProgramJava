@@ -34,9 +34,10 @@ public class Duplicate {
                 for(int j = i+1;j<n;j++)
                     if(arr[i] == arr[j])
                         count++;
+                if(count>1)
+                    System.out.println(arr[i]+"------->"+count);
             }
-            if(count>1)
-                System.out.println(arr[i]+"------->"+count);
+            
         }
     }
 }
