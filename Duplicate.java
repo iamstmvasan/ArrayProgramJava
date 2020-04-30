@@ -21,7 +21,7 @@ public class Duplicate {
     }
 
     void process(){
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<n;i++){
             int count = 1;
             boolean flag = true;
             for(int j = 0;j<i;j++){
